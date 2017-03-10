@@ -12,6 +12,7 @@
 		FBC205B91E72277E0054ED78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC205B71E72277E0054ED78 /* Main.storyboard */; };
 		FBC205BB1E72277E0054ED78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC205BA1E72277E0054ED78 /* Assets.xcassets */; };
 		FBC205BE1E72277E0054ED78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC205BC1E72277E0054ED78 /* LaunchScreen.storyboard */; };
+		FBC205C61E722E690054ED78 /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC205C51E722E690054ED78 /* ListadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBC205BA1E72277E0054ED78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC205BD1E72277E0054ED78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC205BF1E72277E0054ED78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC205C51E722E690054ED78 /* ListadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FBC205BA1E72277E0054ED78 /* Assets.xcassets */,
 				FBC205BC1E72277E0054ED78 /* LaunchScreen.storyboard */,
 				FBC205BF1E72277E0054ED78 /* Info.plist */,
+				FBC205C51E722E690054ED78 /* ListadoViewController.swift */,
 			);
 			path = GestureRecognizer;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					FBC205AF1E72277E0054ED78 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y4G2QFLKB7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC205B61E72277E0054ED78 /* ViewController.swift in Sources */,
+				FBC205C61E722E690054ED78 /* ListadoViewController.swift in Sources */,
 				FBC205B41E72277E0054ED78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4G2QFLKB7;
 				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.GestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4G2QFLKB7;
 				INFOPLIST_FILE = GestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.ourlimm.GestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
